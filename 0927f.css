@@ -1,0 +1,92 @@
+#btn-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 750px;
+    left: 160px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#btn-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 775px;
+    left: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#btn-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 810px;
+    left: 160px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 775px;
+    left: 270px;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    z-index: 1000;
+}
+#target01 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 30vh;
+    left: 30vw;
+    color: #ffffff;
+    background-color: none;
+}
+img { width: 100%; }
+
+<div id="target01" > 박스1
+<img width="800" src="27.png" >
+</div >
+
+
+/* CSS 코드 */
+#button02 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 500px;
+    left: 600px;
+    background-color: aquamarine;
+}
+
+#target02 {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 50px;
+    background-color: blueviolet;
+    border: dashed 3px #000000;
+}

@@ -5,6 +5,7 @@
     top: 100px;
     left: 100px;
     overflow: hidden;
+
 }
 #left-box {
     display: flex;
@@ -33,17 +34,18 @@
 }
 #slides {
     position: absolute;
-    width: 2880px;
+    width: 4800px;
     height: 540px;
     left: 100px;
     color: #ffffff;
-    background-color:blueviolet;
+    background-color:white;
 }
 #slides > img {
     display: block;
     width: 960px;
     float: left;
 }
+
 .material-icons {
     font-size: 48px;
 }

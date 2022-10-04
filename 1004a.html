@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery 슬라이드쇼(Carousel)</title>
+    <link href="1004a.css" rel="stylesheet"> <!-- 외부 CSS 연결 -->
+</head>
+
+<body>
+    <div id="slideshow-frame">
+        <div id="btn-right">RIGHT</div>
+        <div id="btn-left">LEFT</div>
+        <div id="slides">
+            <img src="images/image01.png">
+            <img src="images/image02.png">
+            <img src="images/image03.png">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.6.1.js"></script> <!-- JS 라이브러리 또는 외부 스크립트 연결 -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.js"></script> CDN 방식으로 연결하는 경우 -->
+    <script>
+        var x=0;
+        $('#btn-left').click(function(){
+            $('#slides').stop().animate({'left': '-=960px'}, 300);
+        });
+        $('#btn-right').click(function(){
+            $('#slides').stop().animate({'left': '+=960px'}, 300);
+        });
+    </script>
+</body>
+    
+</html>
